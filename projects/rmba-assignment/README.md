@@ -14,11 +14,10 @@
 - **Method 2:** Welch t-test (income by creditworthiness), normality/variance checks, effect size (Hedges’ g)
 
 ## Dataset
-This project uses the **Loan Default Dataset** from Kaggle (author: *yasserh*):  
-- Source: https://www.kaggle.com/datasets/yasserh/loan-default-dataset/data
+This project uses the **Loan Default Dataset** (Kaggle, author: *yasserh*):  
+https://www.kaggle.com/datasets/yasserh/loan-default-dataset/data
 
-**Local path expected:** after downloading and extracting, place the CSV here:  
-- `data/Loan_Default.csv`
+The dataset is not included in this repository. See `data/README.md` for download instructions and the expected local path.
 
 ## Files
 - `RMBA_Group_B9.ipynb` — main analysis

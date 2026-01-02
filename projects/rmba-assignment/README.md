@@ -2,6 +2,7 @@
 
 **Goal:** Explain household debt drivers and test whether income differs by creditworthiness (L1 vs L2) using the Loan Default dataset.  
 **Main notebook:** `notebooks/RMBA_Group_B9.ipynb`
+
 **Readable report:** `docs/RMBA_Group_B9.html`
 
 ## Highlights

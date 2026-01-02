@@ -1,9 +1,8 @@
 # RMBA Assignment — Debt Drivers & Creditworthiness (Group B9)
 
 **Goal:** Explain household debt drivers and test whether income differs by creditworthiness (L1 vs L2) using the Loan Default dataset.  
-**Main notebook:** `notebooks/RMBA_Group_B9.ipynb`
-
-**Readable report:** `docs/RMBA_Group_B9.html`
+**Main notebook:** `notebooks/RMBA_Group_B9.ipynb`.
+**Readable report:** `docs/RMBA_Group_B9.html`.
 
 ## Highlights
 - Built a reproducible cleaning pipeline and created the target variable: **debt = (dtir1/100) * income**

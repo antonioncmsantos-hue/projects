@@ -24,3 +24,6 @@
    ```bash
    pip install -r requirements.txt
    jupyter notebook RMBA_Group_B9.ipynb
+
+## Authors
+António Marques Dos Santos · Nicolas Oteri · Simon Anthofer

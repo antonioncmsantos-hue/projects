@@ -13,7 +13,7 @@ This project models **debt burden** using borrower income and loan characteristi
 Business context: lenders evaluate affordability and risk by understanding how debt levels move with borrower capacity and loan conditions.
 
 ## Data
-- **Source:** Loan Default dataset (CSV)
+- **Source:** [Loan Default dataset (CSV)](https://www.kaggle.com/datasets/yasserh/loan-default-dataset/data)
 - **Scope:** Individual loan applications (cross-sectional)
 - **Key variables**
   - Borrower: `income`

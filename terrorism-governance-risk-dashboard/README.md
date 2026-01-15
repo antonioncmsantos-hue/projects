@@ -15,9 +15,9 @@ Context: macro risk analysis and country benchmarking.
 
 ## Data
 - **Sources**
-  - Global Terrorism Database (GTD)
-  - Worldwide Governance Indicators (WGI)
-  - World Development Indicators (WDI)
+  - [Global Terrorism Database (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd/data)
+  - [Worldwide Governance Indicators (WGI)](https://databank.worldbank.org/source/world-development-indicators)
+  - [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators)
 - **Scope**
   - GTD aggregated to **country-year**
   - Focused on the period with consistent cross-source coverage (e.g., late 1990s–2017)

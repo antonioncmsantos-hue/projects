@@ -1,55 +1,57 @@
-# Data Visualization – Terrorism, Economics & Governance 
+# Risk Dashboard — Terrorism, Governance & Macroeconomics (WDI/WGI/GTD)
 
-Interactive visual analytics study on global terrorism patterns (1997–2017) and how terrorism risk relates to economic development and governance quality.
 
-**Course:** Data Visualization (NOVA SBE)  
-**Group:** António Marques dos Santos, Simon Anthofer, Vanessa Weiss
+## Overview
+This project combines terrorism incidents, governance quality, and macro indicators into **interactive Tableau dashboards** and a final report to explore **risk concentration**, **time trends**, and **governance–risk patterns**.
 
----
+## Quick links
+- **Final report (PDF):** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/data-visualization-terrorism/docs/G17-DV4BA-Final-Report.pdf)
+- **EDA / preprocessing notebook:** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/notebooks/Datasets_EDA.ipynb)
+- **Dashboards (Tableau):** [AQ1](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ1.twbx) · [AQ2](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ2.twbx) · [AQ3](dashboards/Data%20Visualization%20G17_AQ3.twbx)
 
-## Analytical Questions (AQ)
-- **AQ1:** Is the world really becoming increasingly dangerous?
-- **AQ2:** Where is terrorism risk concentrated, and how does it relate to economic measures?
-- **AQ3:** Does better governance quality go hand in hand with less terrorism?
+## Problem
+**Is terrorism risk increasing over time, where is it concentrated, and does stronger governance correlate with lower terrorism intensity?**  
+Context: macro risk analysis and country benchmarking.
 
----
-## Key results (summary)
-- **AQ1 (Global trend):** Terrorism intensity shows notable **spikes (e.g., around 2007 and 2014)** rather than a steady upward trend. After **2014**, the overall pattern suggests a **decline**, which challenges the idea that the world is continuously becoming more dangerous.
-- **AQ2 (Economics):** Most economic indicators show **weak or inconsistent global relationships** with terrorism intensity. **GDP per capita** is not systematically predictive, while **military expenditure** shows a **moderate positive association**. **R&D expenditure** is **weakly associated with fewer attacks**, but effects vary substantially by country.
-- **AQ3 (Governance):** There is a **clear (but imperfect) negative association** between governance quality and terrorism risk: higher-governance countries tend to cluster in lower-risk areas. However, the relationship is **context-dependent**, and governance improvements do not guarantee lower terrorism without broader conflict and institutional dynamics improving as well.
+## Data
+- **Sources**
+  - Global Terrorism Database (GTD)
+  - Worldwide Governance Indicators (WGI)
+  - World Development Indicators (WDI)
+- **Scope**
+  - GTD aggregated to **country-year**
+  - Focused on the period with consistent cross-source coverage (e.g., late 1990s–2017)
+- **Key variables**
+  - Terrorism: attacks, casualties, per-capita metrics
+  - Governance: composite index from WGI dimensions
+  - Macro: population (WDI) + selected indicators for comparisons
 
----
+## Method
+1. Clean GTD events and aggregate to **country-year**
+2. Merge population (WDI) to compute **per-capita** metrics
+3. Build a composite governance index (WGI) and merge into one panel
+4. Build dashboards answering three analysis questions (AQ1–AQ3)
 
-## Tableau Public dashboards (no Tableau Desktop needed)
-If you don’t have Tableau Desktop/Reader, you can view the dashboards here:
+## Results (Key Findings)
+- Risk is **not a smooth global upward trend**; it is driven by regional spikes and outliers.
+- Terrorism is **geographically concentrated**; macro indicators explain variation only partially.
+- Higher governance quality is generally associated with lower terrorism risk, with **heterogeneity** across countries and periods.
 
-- **AQ1 Dashboard:** https://public.tableau.com/app/profile/vanessa.weiss/viz/DataVisualizationG17_AQ1/AQ1-Dashboardtobegraded  
-- **AQ2 Dashboard:** https://public.tableau.com/app/profile/simon.a5880/viz/shared/GSSZ42FFD  
-- **AQ3 Dashboard:** https://public.tableau.com/app/profile/ant.nio.santos/viz/DataVisualizationG17_AQ3/DataVisualizationG17_AQ3  
+## Outputs
+- **Final report (PDF):** `reports/G17-DV4BA-Final-Report.pdf`
+- **Notebook:** `notebooks/Datasets_EDA.ipynb`
+- **Tableau workbooks:** `dashboards/*.twbx`
+- **Preview image:** `assets/preview.png`
 
----
+## Repo structure
+- `data/` — raw extracts / cleaned panels (optional)
+- `notebooks/` — preprocessing + EDA
+- `dashboards/` — Tableau `.twbx/.twbx`
+- `reports/` — PDF outputs
+- `assets/` — screenshots for previews
 
-## Repository structure
-- `docs/`
-  - `final-report.pdf` – final written report
-  - `eda-report.pdf` – preprocessing + EDA documentation
-- `notebooks/`
-  - `datasets_eda.ipynb` – EDA / dataset preparation notebook
-- `tableau/`
-  - `AQ1.twbx`, `AQ2.twbx`, `AQ3.twbx` – packaged Tableau workbooks
+## Notes & limitations
+- GTD has known data quality variation by region/time (and a missing year in the early 1990s).
+- Per-capita normalization is essential for cross-country comparability.
+- Next steps: add formal models (panel regression / fixed effects) to quantify governance–risk links beyond visualization.
 
----
-
-## How to open locally (optional)
-- Open `.twbx` files using **Tableau Desktop** or **Tableau Reader** (free).
-- If you don’t have Tableau installed, use the Tableau Public links above.
-
----
-
-## Data sources (high-level)
-This project uses:
-- Global Terrorism Database (GTD)
-- World Bank World Development Indicators (WDI)
-- Corruption Perceptions Index (CPI)
-
-> Note: raw datasets may not be included in this repository depending on licensing/size.

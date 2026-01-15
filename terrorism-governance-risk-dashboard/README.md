@@ -7,7 +7,7 @@ This project combines terrorism incidents, governance quality, and macro indicat
 ## Quick links
 - **Final report (PDF):** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/data-visualization-terrorism/docs/G17-DV4BA-Final-Report.pdf)
 - **EDA / preprocessing notebook:** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/notebooks/Datasets_EDA.ipynb)
-- **Dashboards (Tableau):** [AQ1](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ1.twbx) · [AQ2](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ2.twbx) · [AQ3](dashboards/Data%20Visualization%20G17_AQ3.twbx)
+- **Dashboards (Tableau):** [AQ1](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ1.twbx) · [AQ2](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ2.twbx) · [AQ3](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ3.twbx)
 
 ## Problem
 **Is terrorism risk increasing over time, where is it concentrated, and does stronger governance correlate with lower terrorism intensity?**  

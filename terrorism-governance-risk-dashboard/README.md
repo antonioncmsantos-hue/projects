@@ -5,7 +5,7 @@
 This project combines terrorism incidents, governance quality, and macro indicators into **interactive Tableau dashboards** and a final report to explore **risk concentration**, **time trends**, and **governance–risk patterns**.
 
 ## Quick links
-- **Final report (PDF):** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/data-visualization-terrorism/docs/G17-DV4BA-Final-Report.pdf)
+- **Final report (PDF):** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/docs/G17-DV4BA-Final-Report.pdf)
 - **EDA / preprocessing notebook:** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/notebooks/Datasets_EDA.ipynb)
 - **Dashboards (Tableau):** [AQ1](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ1.twbx) · [AQ2](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ2.twbx) · [AQ3](https://github.com/antonioncmsantos-hue/projects/blob/main/terrorism-governance-risk-dashboard/tableau/Data%20Visualization%20G17_AQ3.twbx)
 

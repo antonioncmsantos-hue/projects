@@ -5,9 +5,8 @@
 This project models **debt burden** using borrower income and loan characteristics to support **credit-risk understanding** (affordability / borrower profiling) with an interpretable, diagnostics-driven approach.
 
 ## Quick links
-- **Report (HTML):** [Open](reports/RMBA_Group_B9.html)
-- **Notebook:** [Open](notebooks/RMBA_Group_B9.ipynb)
-- **Dataset:** [Open](data/Loan_Default.csv)
+- **Report (ipynb):** [Open](https://github.com/antonioncmsantos-hue/projects/blob/main/projects/rmba-assignment/notebooks/RMBA_Group_B9.ipynb)
+- **Dataset:** [Open](https://github.com/antonioncmsantos-hue/projects/tree/main/credit-risk-loan-default/data)
 
 ## Problem
 **How strongly is borrower income associated with debt burden, and do loan/product characteristics improve explanatory power?**  

@@ -1,7 +1,10 @@
 # Projects
 
-This repository contains projects made in group and individually.
+A curated selection of data & finance-related projects. Each project includes reproducible code and a clear output (report, dashboard, or notebook).
 
-## Projects
-- [RMBA Assignment](./projects/rmba-assignment/)
-- [Data Visualization – Terrorism, Economics & Governance](./projects/data-visualization-terrorism/)
+## Project Index
+
+| Project | Theme | Tools | Output | Link |
+|---|---|---|---|---|
+| Credit Risk Modeling — Loan Default | Credit Risk / ML | Python, pandas, statsmodels, scikit-learn | Report (HTML) | [View](./credit-risk-loan-default/) |
+| Risk Dashboard — Terrorism, Governance & Macro (WDI/WGI/GTD) | Risk / Macro / Data Viz | Python, pandas, Tableau | Report (PDF) + Dashboard | [View](./terrorism-governance-risk-dashboard/) |

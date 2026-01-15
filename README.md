@@ -6,5 +6,5 @@ A curated selection of data & finance-related projects. Each project includes re
 
 | Project | Theme | Tools | Output | Link |
 |---|---|---|---|---|
-| Credit Risk Modeling — Loan Default | Credit Risk / ML | Python, pandas, statsmodels, scikit-learn | Report (HTML) | [View](./credit-risk-loan-default/) |
-| Risk Dashboard — Terrorism, Governance & Macro (WDI/WGI/GTD) | Risk / Macro / Data Viz | Python, pandas, Tableau | Report (PDF) + Dashboard | [View](./terrorism-governance-risk-dashboard/) |
+| Credit Risk Modeling — Loan Default | Credit Risk / ML | Python, pandas, statsmodels, scikit-learn | Report (HTML) | [View](https://github.com/antonioncmsantos-hue/projects/tree/main/projects/rmba-assignment) |
+| Risk Dashboard — Terrorism, Governance & Macro (WDI/WGI/GTD) | Risk / Macro / Data Viz | Python, pandas, Tableau | Report (PDF) + Dashboard | [View](https://github.com/antonioncmsantos-hue/projects/tree/main/data-visualization-terrorism) |
